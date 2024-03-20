@@ -15,8 +15,10 @@ fi
 mkdir -p ~/.ssh
 
 # Add the authorized keys
-echo "example_kessh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEvZ//QbrtP5Bt6JM6WC2Mzc4MFqdshCk0EytmaV9g9a hey@efekan.me" >> ~/.ssh/authorized_keys
+echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEvZ//QbrtP5Bt6JM6WC2Mzc4MFqdshCk0EytmaV9g9a hey@efekan.me" >> ~/.ssh/authorized_keys
 
 # Adjust permissions
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
+
+echo "Finished setting up SSH."
