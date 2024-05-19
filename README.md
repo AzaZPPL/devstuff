@@ -6,4 +6,4 @@ When a device is installed in the PCIE slot, the system fans might spin up to 10
 - Using SSH and RACADM
 - Using IPMI and `ipmitool`
 
-[Read the full documentation](docs/disable_pcie_fan_spinup.md)
+[Read the full documentation](docs/dell_server_disable_pcie_fan_spinup.md)
